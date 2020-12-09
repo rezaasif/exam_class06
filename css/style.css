@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+/*******head section*********/
+
+header{
+	padding: 10px 0;
+	border-bottom: 2px solid #0f265612;
+}
+
+header .container{
+	justify-content: center;
+}
+
+.col-1{color: #4285F4;}
+.col-2{color: #EA4335;}
+.col-3{color: #FBBC05;}
+.col-4{color: #34A853;}
+
+
+
+
+/*******mision section*******/
+.mission{
+	padding: 100px 0;
+}
+
+.content{
+	text-align: center;
+	padding: 0 200px;
+}
+
+.content img{
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.content h2{
+	font-size: 45px;
+	color: #817C81;
+	line-height: 1.3;
+	margin-bottom: 100px;
+}
+
+/********budget section*********/
+.budget{
+	padding: 10px 0;
+	flex: 0 0 auto;
+}
+.budget-section{
+	text-align: left;
+	padding: 0 200px;
+}
+.budget-section h2{
+	font-size: 35px;
+	color: #817C81;
+	max-width: 300px;
+	margin-left: initial;
+	margin-bottom: 30px;
+}
+.budget-section  p{
+	font-size: 18px;
+	line-height: 1.7;
+	color: #0F2656;
+	max-width: 100%;
+	margin-bottom: 60px;	
+}
+ .set-section{
+	background-color: #04916E;
+	max-width: 1200px;
+	height: 150px;
+}
+.set{
+	font-size: 35px;
+	color: #ffff;
+	justify-content: center;
+	flex: 0 0 auto;
+	padding-top: 30px;
+	text-align: center;
+}
